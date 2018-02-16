@@ -1,0 +1,23 @@
+html,body{
+	height:100%;
+}
+body{
+	/*background:black;*/
+	background:linear-gradient(#000000,#2FCBF8,#76E7BE)
+}
+.caja{
+	background:#90ABAB;
+	border-radius:50%;
+	box-shadow:0.5em 0.5em 0.5em rgba(0,0,0,0.5);
+	height: 400px;
+	margin: 0 auto; 
+	width: 40%;
+	transition:all linear 3s; 
+
+}
+
+.caja:hover{
+	background:gold;
+	border-radius:0;
+	cursor:pointer;
+}
